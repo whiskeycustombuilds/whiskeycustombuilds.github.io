@@ -13,7 +13,7 @@ body {
 .navbar-brand {
   margin-right: 0; }
   .navbar-brand img {
-    height: 121px; }
+    height: 150px; }
 
 .navbar-dark {
   padding-top: 35px;
@@ -54,7 +54,7 @@ p {
   margin-bottom: 21px; }
 
 a {
-  color: #ff823a;
+  color: #ffffff;
   text-decoration: none;
   text-shadow: #000000 0.1em 0.1em 0.2em;
 }
