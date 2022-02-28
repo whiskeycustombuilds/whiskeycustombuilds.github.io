@@ -530,7 +530,7 @@ body.offcanvas-menu:before {
   margin-right: 0;
 }
 .navbar-brand img {
-  height: 150px;
+  height: 250px;
 }
 
 .navbar-dark {
@@ -588,23 +588,6 @@ p {
 .social-logos {
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
 }
-
-/* a {
-  color: #ffffff;
-  text-decoration: none;
-  text-shadow: #000000 0.1em 0.1em 0.2em;
-}
-
-a:hover {
-  color: #ffffff !important;
-  text-decoration: none !important;
-}
-
-a:visited {
-  color: #ffffff;
-  text-decoration: none !important;
-  text-shadow: #000000 0.1em 0.1em 0.2em;
-} */
 
 a {
   -webkit-transition: 0.3s all ease;
