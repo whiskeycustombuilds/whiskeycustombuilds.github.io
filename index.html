@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Whiskey Custom Builds - Coming Soon</title>
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/bd-coming-soon.css">
@@ -15,12 +21,118 @@
 
 <body class="min-vh-100 d-flex flex-column">
 
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-dark bg-transparenet">
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+    <!-- .site-mobile-menu -->
+
+    <div class="site-navbar-wrap">
+        <div class="site-navbar-top">
+            <div class="container py-3">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="d-flex mr-auto">
+                        <a href="#" class="d-flex align-items-center mr-4">
+                            <span class="icon-envelope mr-2 social-logos"></span>
+                            <span class="d-none d-md-inline-block"></span>
+                        </a>
+                        <a href="#" class="d-flex align-items-center mr-auto">
+                            <span class="icon-phone mr-2 social-logos"></span>
+                            <span class="d-none d-md-inline-block"></span>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-6 text-right">
+                        <div class="mr-auto">
+                        <!-- <a href="#" class="p-2 pl-0"
+                            ><span class="icon-twitter"></span
+                        ></a>
+                        <a href="#" class="p-2 pl-0"
+                            ><span class="icon-facebook"></span
+                        ></a>
+                        <a href="#" class="p-2 pl-0"
+                            ><span class="icon-linkedin"></span
+                        ></a>
+                        <a href="#" class="p-2 pl-0"
+                            ><span class="icon-instagram"></span
+                        ></a> -->
+                        <a href="https://www.instagram.com/whiskeycustombuilds" target="_blank"><i class="fab fa-instagram fa-2x social-logos" aria-hidden="true" title="Check out our instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="site-navbar site-navbar-target js-sticky-header">
+    <div class="container">
+        <div class="row align-items-top">
+        <div class="col-2">
+            <h1 class="my-0 site-logo">
+                <!-- <a href="index.html">Whiskey Custom Builds</a> -->
                 <a class="navbar-brand" href="#">
                     <img src="assets/images/mainlogo.png" alt="logo">
                 </a>
+            </h1>
+        </div>
+        <div class="col-10">
+            <nav class="site-navigation text-right" role="navigation">
+            <div class="container">
+                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
+                <a
+                    href="#"
+                    class="site-menu-toggle js-menu-toggle text-white"
+                    ><span class="icon-menu h3"></span
+                ></a>
+                </div>
+
+                <ul
+                class="site-menu main-menu js-clone-nav d-none d-lg-block"
+                >
+                <li class="active">
+                    <a href="#home-section" class="nav-link">Home</a>
+                </li>
+                <li class="has-children">
+                    <a href="#" class="nav-link">Pages</a>
+                    <ul class="dropdown arrow-top">
+                    <li><a href="#" class="nav-link">Team</a></li>
+                    <li><a href="#" class="nav-link">Pricing</a></li>
+                    <li><a href="#" class="nav-link">FAQ</a></li>
+                    <li class="has-children">
+                        <a href="#">More Links</a>
+                        <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li>
+                    <a href="#gallery-section" class="nav-link">Gallery</a>
+                </li>
+                <li>
+                    <a href="#contact-section" class="nav-link">Contact</a>
+                </li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+        </div>
+    </div>
+
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-dark bg-transparenet">
+                <!-- <a class="navbar-brand" href="#">
+                    <img src="assets/images/mainlogo.png" alt="logo">
+                </a> -->
                 <span class="navbar-text ml-auto d-none d-sm-inline-block"</span>
                 <span class="navbar-text d-none d-sm-inline-block"></span>
             </nav>
@@ -30,18 +142,18 @@
         <div class="container">
             <h1 class="page-title">Coming soon...</h1>
             <p class="page-description">Stay tuned!</p>
-            <p></p>
+            <!-- <p></p>
             <p>Making, creating, designing, and building has always been a part of my life.</p>
             <p>Whether it was simple improvements to something I already owned, or building something that I cooked up in my mind, I’ve always loved to create, build, and customize.</p>
-            <p>Making your ideas come true is an extension of my passion to create. I’ll work with you to ensure every aspect of your designs will be met to the highest standard.</p>
-            
+            <p>Making your ideas come true is an extension of my passion to create. I’ll work with you to ensure every aspect of your designs will be met to the highest standard.</p> -->
+
             <nav class="footer-social-links">
                 <!-- <a href="#!" class="social-link"><i class="mdi mdi-facebook-box"></i></a> -->
                 <!--  <a href="#!" class="social-link"><i class="mdi mdi-twitter"></i></a> -->
                 <!-- <a href="#!" class="social-link"><i class="mdi mdi-google"></i></a> -->
                 <!-- <a href="#!" class="social-link"><i class="mdi mdi-slack"></i></a> -->
                 <!-- <a href="#!" class="social-link"><i class="mdi mdi-skype"></i></a> -->
-                <a href="https://www.instagram.com/whiskeycustombuilds" target="_blank"><i class="fab fa-instagram fa-3x" aria-hidden="true" title="Check out our instagram"></i></a>
+                <!-- <a href="https://www.instagram.com/whiskeycustombuilds" target="_blank"><i class="fab fa-instagram fa-3x" aria-hidden="true" title="Check out our instagram"></i></a> -->
             </nav>
         </div>
     </main>
